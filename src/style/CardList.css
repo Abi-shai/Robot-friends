@@ -1,0 +1,26 @@
+.cardList{
+    width: 100%;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    row-gap: .5em;
+    column-gap: .5em;
+    /* overflow-x: scroll; */
+}
+
+/* Media queries */
+
+@media (max-width: 800px){
+    .cardList{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 488px){
+    .cardList{
+        grid-template-columns: 1fr;
+    }
+}

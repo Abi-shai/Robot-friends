@@ -1,0 +1,34 @@
+
+.card{
+    display: grid;
+    width: calc(100%);
+    margin: auto;
+    height: 100%;
+    background-color: #ffe786;
+    border-radius: 10px;
+}
+
+/* Unused styles configs
+*/
+
+.card_image{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.card_info{
+    /* width: 100%;
+    height: 100%; */
+    text-align: center;
+    /* font-size: 2em; */
+    padding-bottom: .5em;
+    padding-top: .5em;
+    margin: auto;
+}
+
+.card_image_name{
+    font-weight: bolder;
+}
+
