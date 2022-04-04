@@ -1,4 +1,4 @@
-import '../style/SearchBox.css'
+import './SearchBox.css'
 
 const SearchBox = ({searchField, searchChange}) =>{
 

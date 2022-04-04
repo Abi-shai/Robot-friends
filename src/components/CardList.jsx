@@ -1,5 +1,5 @@
 import Card from "./Card"
-import '../style/CardList.css'
+import './CardList.css'
 
 const CardList = ({robots}) =>{
 

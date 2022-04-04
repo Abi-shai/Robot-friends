@@ -1,9 +1,9 @@
 import React from "react";
-import CardList from "./CardList";
-import SearchBox from './SearchBox'
-import Scroll from './Scroll'
+import CardList from "../components/CardList";
+import SearchBox from '../components/SearchBox'
+import Scroll from '../components/Scroll'
 import { robots } from "../database/robots"
-import '../style/App.css'
+import './App.css'
 
 
 class App extends React.Component {
@@ -24,8 +24,9 @@ class App extends React.Component {
     }
 
     render(){
-        const filteredRobots = this.state.robots.filter(robot =>{
-            return robot.name.toLowerCase().includes(this.state.searchField.toLowerCase())
+        const { robots, searchField } = this.state
+        const filteredRobots = robots.filter(robot =>{
+            return robot.name.toLowerCase().includes(searchField.toLowerCase())
         })
 
         return(
