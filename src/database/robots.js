@@ -1,4 +1,4 @@
-export const robots = [
+const robots = [
   {
     id: 1,
     name: 'Leanne Graham',
@@ -70,3 +70,5 @@ export const robots = [
     image: 'https://robohash.org/blitzarrd'
   }
 ];
+
+export default robots
