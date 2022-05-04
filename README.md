@@ -1,1 +1,3 @@
-### This is just a fun project made while learning React.
+### Project made while learning React.
+
+--Status: done✅
