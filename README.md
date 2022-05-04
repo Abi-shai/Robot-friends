@@ -1,3 +1,3 @@
-### Project made while learning React.
+### Project done while learning React.
 
 --Status: done✅
